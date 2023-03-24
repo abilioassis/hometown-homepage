@@ -1,0 +1,144 @@
+/** Global definitions **/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  color: #1d3557;
+  background: #e5e5e5;
+  font-family: Verdana, sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/** Typography **/
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+/** Layout **/
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+  height: 343px;
+  background: url("./../img/teatro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+}
+
+.hero-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  background: #1d3557;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  color: #fff;
+  background: #457b9d;
+  border-radius: 10px;
+  padding: 5px 15px;
+  line-height: 1.5;
+}
+
+/* Activities */
+
+.activities {
+  background: #f1faee;
+  padding: 2em 0;
+}
+
+.activities-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.activities h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.activities img {
+  order: -1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px #e63946 solid;
+}
+
+/* Guide */
+
+.guide {
+  background: #fff;
+  padding: 2em 0;
+}
+
+.guide-box {
+  padding: 1em;
+  margin: 0 auto;
+  background: #a8dadc;
+  max-width: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guide-info {
+  width: 45%;
+  text-align: center;
+}
+
+.guide img {
+  width: 45%;
+  order: -1;
+  border-radius: 12px;
+}
