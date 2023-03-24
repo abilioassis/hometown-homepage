@@ -4,7 +4,7 @@ This is a solution to the [M2 - Hometown Homepage](https://scrimba.com/playlist/
 
 ## Screenshot
 
-![](img/screenshot.png)
+![](img/screenshot.jpeg)
 
 ## Links
 
