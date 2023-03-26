@@ -1,4 +1,5 @@
-/** Global definitions **/
+/* Global definitions */
+
 *,
 *::before,
 *::after {
@@ -17,7 +18,7 @@ img {
   width: 100%;
 }
 
-/** Typography **/
+/* Typography */
 h1,
 h2,
 h3 {
@@ -36,7 +37,7 @@ h3 {
   font-size: 1rem;
 }
 
-/** Layout **/
+/* Layout */
 
 .container {
   max-width: 800px;
@@ -47,7 +48,7 @@ h3 {
 /* Hero */
 
 .hero {
-  height: 343px;
+  height: 70vh;
   background: url("./../img/teatro.jpg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -58,26 +59,26 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero-city {
   background: #1d3557;
   color: #fff;
   border-radius: 10px;
-  padding: 5px 15px;
-  margin-bottom: 0;
+  padding: 0.5em 1.5em;
 }
 
 .hero-message {
   color: #fff;
   background: #457b9d;
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 1em 2em;
   line-height: 1.5;
   font-weight: bold;
 }
 
-/* Activities */
+/** Activities **/
 
 .activities {
   background: #f1faee;
@@ -143,4 +144,12 @@ h3 {
   width: 45%;
   order: -1;
   border-radius: 12px;
+}
+
+/* Tablet and Desktop */
+
+@media (min-width: 500px) {
+  .hero {
+    height: 343px;
+  }
 }
