@@ -7,7 +7,6 @@
 
 body {
   margin: 0;
-  font-size: 1rem;
   color: #1d3557;
   background: #e5e5e5;
   font-family: Verdana, sans-serif;
@@ -49,10 +48,8 @@ h3 {
 
 .hero {
   height: 343px;
-  background: url("./../img/teatro.jpg");
+  background: url("./../img/teatro.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -200px;
 }
 
 .hero-info {
@@ -63,7 +60,7 @@ h3 {
   align-items: center;
 }
 
-.hero h1 {
+.hero-city {
   background: #1d3557;
   color: #fff;
   border-radius: 10px;
@@ -71,12 +68,13 @@ h3 {
   margin-bottom: 0;
 }
 
-.hero p {
+.hero-message {
   color: #fff;
   background: #457b9d;
   border-radius: 10px;
   padding: 5px 15px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 /* Activities */
@@ -100,12 +98,12 @@ h3 {
   text-align: center;
 }
 
-.activities h2 {
+.activities-title {
   margin-top: 0;
   text-align: center;
 }
 
-.activities img {
+.activity-picture {
   order: -1;
   width: 150px;
   height: 150px;
@@ -137,7 +135,11 @@ h3 {
   text-align: center;
 }
 
-.guide img {
+.guide-name {
+  font-weight: bold;
+}
+
+.guide-picture {
   width: 45%;
   order: -1;
   border-radius: 12px;
