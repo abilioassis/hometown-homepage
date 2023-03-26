@@ -48,7 +48,7 @@ h3 {
 /* Hero */
 
 .hero {
-  height: 70vh;
+  height: 80vh;
   background: url("./../img/teatro.jpg") no-repeat center center fixed;
   background-size: cover;
 }
