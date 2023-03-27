@@ -87,14 +87,16 @@ h3 {
 
 .activities-box {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  gap: 2em;
 }
 
 .activity {
-  width: 30%;
+  /* width: 30%; */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   text-align: center;
 }
@@ -102,6 +104,10 @@ h3 {
 .activities-title {
   margin-top: 0;
   text-align: center;
+}
+
+.activity-title {
+  margin-bottom: 0;
 }
 
 .activity-picture {
