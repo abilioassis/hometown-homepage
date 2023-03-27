@@ -26,7 +26,7 @@ h3 {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 h2 {
@@ -155,6 +155,7 @@ h3 {
   /* width: 45%; */
   order: -1;
   border-radius: 12px;
+  border: 2px #e63946 solid;
 }
 
 /* Tablet and Desktop */
