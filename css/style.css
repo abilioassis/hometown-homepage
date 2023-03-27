@@ -133,12 +133,13 @@ h3 {
   max-width: 500px;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
 .guide-info {
-  width: 45%;
+  /* width: 45%; */
   text-align: center;
 }
 
@@ -147,7 +148,7 @@ h3 {
 }
 
 .guide-picture {
-  width: 45%;
+  /* width: 45%; */
   order: -1;
   border-radius: 12px;
 }
