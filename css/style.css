@@ -36,7 +36,7 @@ h3 {
 /* Layout */
 
 .container {
-  max-width: 900px;
+  max-width: 800px;
   width: 90%;
   margin: 0 auto;
 }
@@ -79,11 +79,12 @@ h3 {
 
 .activities {
   background: #f1faee;
-  padding: 2em 0;
+  padding-top: 1em;
 }
 
 .activities-title {
   text-align: center;
+  margin-top: 0;
 }
 
 .activities-box {
@@ -116,11 +117,11 @@ h3 {
 
 .guide {
   background: #fff;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 .guide-box {
-  padding: 2em;
+  padding: 1em;
   background: #a8dadc;
   border-radius: 10px;
   display: flex;
