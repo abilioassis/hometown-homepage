@@ -181,6 +181,10 @@ h3 {
     width: 30%;
   }
 
+  .activity-title {
+    height: 3.6em;
+  }
+
   .activity-picture {
     width: 150px;
     height: 150px;
