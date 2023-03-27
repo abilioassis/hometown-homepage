@@ -138,6 +138,10 @@ h3 {
   align-items: center;
 }
 
+.guide-box-title {
+  order: -2;
+}
+
 .guide-info {
   /* width: 45%; */
   text-align: center;
