@@ -10,6 +10,7 @@ This is a solution to the [M2 - Hometown Homepage](https://scrimba.com/playlist/
 
 - Live Site URL: [Netlify](https://fanciful-biscochitos-9e0077.netlify.app/)
 - Codebase: [Github](https://github.com/abilioassis/hometown-homepage)
+- Code review: [Scrimba](https://scrimba.com/scrim/cqM3zkS4)
 
 ## Built with
 
